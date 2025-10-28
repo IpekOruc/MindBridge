@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="calender.css">
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+BR:wght@100..400&display=swap');
+  </style>
+
+</head>
+<body>
+  <header>
+     <!-- menu bar start  -->
+            <!--logo  -->
+               <div class="container">
+                <div>
+                    <img id="logo-image" src="../logo.png" alt="MindBridge Logo">
+                </div>
+                <!-- menu  -->
+    <!-- class = "current" -->
+                <nav class="navbar">
+                    <ul class="nav links"> 
+                    <li class="nav-link"> 
+                            <a href="../index.html">Home</a>   
+                    </li>
+                    <li class="nav-link resources"> 
+                            <a href="#resources.html">Resources
+                            </a>
+                        <ul class="drop-down">
+                            <li class = "dropDownItem"><a href = "../articles/articles.html"> Articles </a></li>
+                            <li class = "dropDownItem"><a href = "../videos/videos.html"> Videos </a>  </li>
+                            <li class = "dropDownItem"> <a href = "../channels/channels.html">Channels </a> </li>
+                            <li class = "dropDownItem"> <a href = "../stories/stories.html"> Stories </a> </li>
+                        </ul>
+                        </li>
+                    <li class="nav-link"> 
+                            <a href="../goals/goals.html">To-Do</a>  
+                        </li>
+                    <li class="nav-link tracker"> 
+                            <a href="#tracker.html">Tracker</a>
+                        <ul class="dropDownTracker">
+                            <li class = "dropDownTrackerItem"><a class = "current" href = "#calender.html"> Calendar </a></li>
+                            <li class = "dropDownTrackerItem"><a href = "../notes/notes.html"> Notes </a>  </li>
+                        </ul>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+            <hr/>
+
+          <!-- menu bar end -->
+  </header>
+
+  <main>
+    <div id="calendar-container">
+      <div class="calendar-header">
+        <button id="prevMonth">&lt;</button>
+        <h2 id="monthYear"></h2>
+        <button id="nextMonth">&gt;</button>
+      </div>
+      <div class="days-of-week">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div class="calendar-days" id="calendarDays">
+        <!-- Days will be dynamically generated -->
+      </div>
+    </div>
+
+    <div id="eventModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Add Event</h2>
+        <form id="eventForm">
+          <label for="eventDate">Date:</label>
+          <input type="text" id="eventDate" name="eventDate" readonly>
+          <label for="eventTitle">Event Title:</label>
+          <input type="text" id="eventTitle" name="eventTitle" required>
+          <button type="submit">Add Event</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 MindBridge. All rights reserved.</p>
+  </footer>
+
+  <script src="calender.js"></script>
+</body>
+</html>

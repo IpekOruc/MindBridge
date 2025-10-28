@@ -1,0 +1,72 @@
+@import url("../style.css");
+
+
+
+body {
+  background-color: #164E42;
+  font-family: Nunito, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #164E42;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 80px;
+}
+
+
+#logo-image {
+  width: 150px;
+  padding-left: 4rem;
+  display: flex; 
+}
+
+.pic {
+  border-radius: 50%;
+  border: 5px solid #DAA520;
+  padding: 10px;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover; 
+  transition: transform 1s ease; 
+}
+
+.pic:hover {
+  transform: scale(1.1);
+}
+
+#picGroup1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  animation: slide-right 3s;
+}
+
+#picGroup2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  animation: slide-left 3s;
+}
+
+
+#description{
+margin: auto;
+display: flex;
+justify-content: center;
+padding: auto;
+  
+}
+
+.nameOfChannel{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #DAA520;
+}
+
+.current {
+  font-weight: bold;
+}

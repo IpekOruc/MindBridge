@@ -1,0 +1,118 @@
+
+@import url("../style.css");
+
+body {
+  background-color: #164E42;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #164E42;
+  margin-bottom: 80px;
+}
+
+
+h2{
+display: flex;
+justify-content: center;
+padding: 2rem;
+
+}
+
+/* ik how to fix it but it wasnt like this during the camp , i think someone might hav ebeen trying to fix another problem and copied paste the wrong thing, its fine, thanks for lettingme know
+yes Ik i don't understand it either yes probably no problem also thanks for fixing it <33 */
+
+
+#logo-image {
+  width: 150px;
+  padding-left: 4rem;
+  display: flex; 
+}
+
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+
+
+
+.main div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+
+  
+}
+
+.vid1{
+  
+  animation: slide-right 3s;
+}
+.vid2{
+
+  animation: slide-right 3s;
+}
+.vid3{
+ 
+  animation: slide-right 3s;
+}
+
+.videos{
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border:none;
+
+}
+
+.videos:hover {
+  transform: scale(1.1);
+  
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  text-align: center;
+  /* align-content: flex-start;why no work */
+}
+
+
+
+.current {
+  font-weight: bold;
+  
+}
+
+
+
+/* .vidOfPic{
+  transform: scale(0.2);
+    border-radius: 8px;
+    box-shadow:;
+}
+
+vidPic{
+  margin: 10px;
+  display: inline-block; 
+  vertical-align: top; 
+}
+
+.vidPic:hover {
+  transform: scale(1.1);
+} */
+
+.description {
+  display: block !important;
+  text-align: center;
+}

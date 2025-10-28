@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <title>MindBridge</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+BR:wght@100..400&display=swap');
+    </style>
+    
+</head>
+
+<body>
+    <header>
+
+        <!--logo  -->
+        <div class="container">
+            <div>
+                <img id="logo-image" src="logo.png" alt="MindBridge Logo">
+            </div>
+            <!-- menu  -->
+
+            <nav class="navbar">
+                <ul class="nav links">
+                    <li class="nav-link">
+                        <a class = "current" href="#index.html">Home</a>
+                    </li>
+                    <li class="nav-link resources">
+                        <a href="#resources.html">Resources</a>
+                        <ul class="drop-down">
+                            <li class="dropDownItem"><a href="articles/articles.html"> Articles </a></li>
+                            <li class="dropDownItem"><a href="videos/videos.html"> Videos </a> </li>
+                            <li class="dropDownItem"> <a href=channels/channels.html> Channels </a> </li>
+                            <li class="dropDownItem"> <a href=stories/stories.html> Stories </a> </li>
+
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-link goals">
+                        <a href="goals/goals.html">To-Do</a>
+                    </li>
+                    <li class="nav-link tracker">
+                        <a href="#tracker.html">Tracker</a>
+                        <ul class="dropDownTracker">
+                            <li class="dropDownTrackerItem"><a href="calender/calender.html"> Calendar </a></li>
+                            <li class="dropDownTrackerItem"><a href="notes/notes.html"> Notes </a> </li>
+
+                        </ul>
+
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+
+        </div>
+
+
+        <hr/>
+
+
+        <h3><i>Your mind is a garden; cultivate it with care.<br> Explore our resources and tools to nurture mental
+                well-being and blossom into your best self.</i></h3>
+        <div id="bannerWrap"><img id="banner-image" src="banner.png" alt="MindBridge Banner"></div>
+        <p>MindBridge is your online platform for mental health resources. We provide a wide range of articles and
+            videos to help you understand and improve your mental well-being. Our goal is to create a supportive
+            community and offer tools to track your progress, all in one convenient place.</p>
+    </header>
+
+ <!--  the reason it looks hard is bc of the nav bar, tahst copied and apsted on all of them  -->
+
+    <main>
+        <section id="resources">
+            <a href="https://www.mind.org.uk/information-support/tips-for-everyday-living/wellbeing/" target="_blank">
+                <button class="resource-box">
+                    <h3>How to improve your mental wellbeing</h3>
+                    <p>This article offers activities that better mental wellbeing and inspiring stories of others who
+                        have faced challenges with their mental health. 
+                        <p class="readnow"> Read Now </p>
+                    </p>
+                </button>
+            </a>
+            <a href="https://youtu.be/DxIDKZHW3-E?feature=shared" target="_blank">
+                <button class="resource-box">
+                    <h3>We All Have Mental Health</h3>
+                    <!-- like this is how u make text rlly easy -->
+                    <p>This video expresses how taking care of our mental health is as essential as taking care of our
+                        physical health and how to cope by reaching out to others or doing things we enjoy.
+                    <p class="watchnow"> Watch Now </p>
+                    </p>
+                </button>
+            </a>
+            <a href="https://www.medicalnewstoday.com/articles/154543" target="_blank">
+                <!--  this is how u make a link below is a button rlly easy I swear-->
+                <button class="resource-box">
+                    <h3>What is mental health?</h3>
+                    <p>This article delves into the risk factors for mental health conditions, types of mental health
+                        disorders, and early signs, diagnosis, treatment, meducation, and self help for those disorders.
+                    <p class="readnow"> Read Now </p>
+                    </p>
+                </button>
+            </a>
+            <a href="https://youtu.be/3QIfkeA6HBY?feature=shared" target="_blank">
+                <button class="resource-box">
+                    <h3>8 Things You Can Do To Improve Your Mental Health</h3>
+                    <p>A video that lists some usefull habits to start to improve your mental health. Some listed are
+                        positive thinking, exercise, and keeping a gratitude journal.
+                        <p class="watchnow"> Watch Now </p>
+                    </p>
+                </button>
+            </a>
+        </section>
+    </main>
+
+        <h3 class="title2"> Common Mental Disorders  </h3>
+     <div class= "disorders">
+    <div class="depression"> 
+        <h3> Depression </h3>
+        <p> Depression encompasses a range of mental health issues marked by a lack of positive affect, low mood, and various emotional, cognitive, physical, and behavioral symptoms. It can range in severity, from major depression to milder forms. In major depressive episodes, mood is often unresponsive to circumstances and remains low throughout the day, though some experience mood fluctuations or temporary lifts from positive events.
+
+        Symptoms may include tearfulness, irritability, social withdrawal, increased pain sensitivity, fatigue, loss of libido, and changes in sleep and appetite—either increased or decreased. Common emotional experiences include loss of interest in daily activities, feelings of guilt, worthlessness, and hopelessness, lowered self-esteem, and thoughts of suicide. Cognitive symptoms involve poor concentration, persistent negative thoughts, mental slowing, and rumination.</p>
+        <a href ="https://www.psychiatry.org/patients-families/depression/what-is-depression"> Learn More </a>
+        </div>
+
+    <div class="depression">
+    <h3> Anxiety </h3>
+    <p> Generalized anxiety disorder (GAD) involves excessive, uncontrollable worry and anxiety about various events or activities, occurring most days for at least six months. This anxiety often comes with restlessness, fatigue, difficulty concentrating, irritability, muscle tension, and disturbed sleep. Unlike other anxiety disorders, the worry in generalized anxiety isn't limited to specific fears, like panic attacks or social embarrassment.
+
+    People with generalized anxiety may excessively worry about everyday situations, such as the health of loved ones, and often fear catastrophic outcomes from minor issues. This condition can lead to feelings of demoralization, discouragement, and shame about struggling with daily routines. It often co-occurs with depression, complicating diagnosis and treatment. </p> 
+    <a href = "https://www.nimh.nih.gov/health/topics/anxiety-disorders"> Learn More </a>
+    </div>
+
+<div class="depression"> 
+<h3> Panic Disorder </h3>
+<p> People with panic disorder experience sudden, intense episodes of anxiety, known as panic attacks, which can be triggered by specific situations or occur unexpectedly. These attacks often lead individuals to avoid certain situations to prevent the panic, which can develop into agoraphobia. Agoraphobia involves fear of being in places where escape might be difficult or help unavailable if a panic attack occurs. This fear can result in avoiding activities like being alone outside, staying home alone, being in crowds, traveling, or being in specific places like bridges or elevators. The frequency and severity of panic attacks can vary widely among individuals. </p>
+<a href = "https://www.nhs.uk/mental-health/conditions/panic-disorder/"> Learn More </a>
+</div>
+
+<div class="depression">
+    <h3> Obsessive-Compulsive Disorder </h3>
+    <p> Obsessive-Compulsive Disorder (OCD) is characterized by the presence of obsessions, compulsions, or both. Obsessions are unwanted, intrusive thoughts, images, or urges that repeatedly enter a person's mind and cause distress. Individuals with OCD recognize these thoughts as their own, even though they find them unreasonable or excessive. Common obsessions include fears of contamination, harm, concerns about order or symmetry, unwanted religious or sexual thoughts, and urges to hoard.
+
+    Compulsions are repetitive behaviors or mental acts that a person feels compelled to perform, often to alleviate the distress caused by obsessions. These can be overt actions, like checking locks or washing hands, or covert mental acts, like repeating words or prayers. Compulsions are not pleasurable and differ from impulsive behaviors like shopping or gambling, which provide immediate gratification. The most common compulsions are checking and cleaning, which are easily recognized as they resemble normal behaviors. </p>
+    <a href = "https://www.mayoclinic.org/diseases-conditions/obsessive-compulsive-disorder/symptoms-causes/syc-20354432"> Learn More </a>
+
+</div>
+         </div>   
+
+    <footer>
+        <p>© 2024 MindBridge. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

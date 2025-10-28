@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goals</title>
+    <link rel="stylesheet" href="goals.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+BR:wght@100..400&display=swap');
+    </style>
+
+</head>
+
+<body>
+     <!-- menu bar start  -->
+            <!--logo  -->
+               <div class="container">
+                <div>
+                    <img id="logo-image" src="../logo.png" alt="MindBridge Logo">
+                </div>
+                <!-- menu  -->
+    <!-- class = "current" -->
+                <nav class="navbar">
+                    <ul class="nav links"> 
+                    <li class="nav-link"> 
+                            <a href="../index.html">Home</a>   
+                    </li>
+                    <li class="nav-link resources"> 
+                            <a href="#resources.html">Resources
+                            </a>
+                        <ul class="drop-down">
+                            <li class = "dropDownItem"><a href = "../articles/articles.html"> Articles </a></li>
+                            <li class = "dropDownItem"><a href = "../videos/videos.html"> Videos </a>  </li>
+                            <li class = "dropDownItem"> <a href = "../channels/channels.html">Channels </a> </li>
+                            <li class = "dropDownItem"> <a href = "../stories/stories.html"> Stories </a> </li>
+                        </ul>
+                        </li>
+                    <li class="nav-link"> 
+                            <a class = "current" href="#goals.html">To-Do</a>  
+                        </li>
+                    <li class="nav-link tracker"> 
+                            <a href="#tracker.html">Tracker</a>
+                        <ul class="dropDownTracker">
+                            <li class = "dropDownTrackerItem"><a href = "../calender/calender.html""> Calendar </a></li>
+                            <li class = "dropDownTrackerItem"><a href = "../notes/notes.html"> Notes </a>  </li>
+                        </ul>
+                        </li>
+                    
+                    </ul>
+                </nav>
+                </div>
+            </div>
+
+          <!-- menu bar end -->
+    <header>
+
+
+
+    </header>
+    <section class="todo">
+        <h2> To-Do List</h2>
+        <div class="input">
+            <input type="text" class="input-field" id="todoInput" placeholder="Add a new todo" />
+            <button class="btn"> Add </button>
+        </div>
+        <ul class="scroll">
+            <li id="todoList" </li>
+        </ul>
+        <div>
+            <hr class="counter" />
+            <div class="counter-container">
+                <p> <span id="todoCount"> 0 </span> items total</p>
+                <button id="deleteButton"> Delete All </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+
+
+    </footer>
+    <footer>
+        <p>© 2024 MindBridge. All rights reserved.</p>
+      </footer>
+    <script src="goals.js"></script>
+</body>
+
+</html>

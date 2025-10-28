@@ -344,3 +344,11 @@ margin-top: 4px;
   font-weight: bold;
 
 }
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+/* Ensure the card itself inherits too (belt-and-suspenders) */
+.resource-box {
+  font-family: inherit;
+}
